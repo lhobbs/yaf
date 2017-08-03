@@ -1,0 +1,39 @@
+.EventCard {
+    /*height: 100px;*/
+    width: 200px;
+    margin: 15px;
+    border: 1px solid #777;
+}
+.top {
+    background-color: #FFF;
+}
+.bottom {
+    background-color: #444;
+    height: 150px;
+}
+.month {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+.day-num {
+    font-size: 36px;
+     text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.day-long {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+.btn-rsvp, .btn-not-selected {
+    height: 100px;
+    width: 100%;
+    border-radius: 0;
+}
+.btn-rsvp {
+    background-color: #005F5F;
+}
