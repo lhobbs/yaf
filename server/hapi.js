@@ -9,9 +9,9 @@ server.connection({ port: 3000, host: 'localhost' });
 // var Client = require('mysql').Client;
 // var client = new Client(); 
 
-// client.host = 'lisahobbscom.powwebmysql.com';
-// client.user = 'yafuser';
-// client.password = 'y@fU$3r';
+// client.host = 'host';
+// client.user = 'user';
+// client.password = 'password';
 // client.connect(function(err, results) {
 //     if (err) {
 //         console.log("Error: " + err.message);
@@ -36,9 +36,9 @@ server.start((err) => {
 
 
 var connection = mysql.createConnection({
-  host     : 'lisahobbscom.powwebmysql.com',
-  user     : 'yafuser',
-  password : 'y@fU$3r34',
+  host     : 'host',
+  user     : 'user',
+  password : 'password',
   database : 'yaf'
 });
  connection.connect();
